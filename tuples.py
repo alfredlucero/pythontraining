@@ -17,6 +17,8 @@ print(orange)
 fruits_list = list(fruits_tuple)
 print(type(fruits_list))
 
+# tuple()
+
 
 def high_and_low(numbers):
     highest = max(numbers)
@@ -32,3 +34,5 @@ print(lowest)
 sports_teams_championships = [("Lakers", 15), ("Celtics", 16)]
 for (team, num_championships) in sports_teams_championships:
     print("Team {} won {} championships".format(team, num_championships))
+
+# del tuple_name
