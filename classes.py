@@ -42,6 +42,7 @@ print(employee.get_years_experience())
 
 employee.welcomeMessage()
 
+# Abstraction
 # Base Class
 
 
@@ -69,10 +70,12 @@ dog = Dog("juno", "corgi")
 print(dog.name)
 print(dog.breed)
 
+# Encapsulation
 # Public => member_name
 # Protected => _member_name
 # Private => __member_name
 
+# Polymorphism
 # Overloading operator
 
 
